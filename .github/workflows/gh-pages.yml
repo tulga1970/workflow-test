@@ -28,8 +28,8 @@ on:
 
 jobs:
   deploy:
-    working-directory: website
     runs-on: ubuntu-20.04
+    working-directory: ./website
     # permissions:
     #   contents: write
     # concurrency:
