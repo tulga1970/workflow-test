@@ -28,12 +28,12 @@ on:
 
 jobs:
   deploy:
+    working-directory: website
     runs-on: ubuntu-20.04
     # permissions:
     #   contents: write
     # concurrency:
     #   group: ${{ github.workflow }}-${{ github.ref }}
-    working-directory: website
     steps:
       - uses: actions/checkout@v3
 
