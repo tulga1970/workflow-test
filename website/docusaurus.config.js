@@ -8,8 +8,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'My Site',
   tagline: 'Dinosaurs are cool',
-  url: 'https://tulga1970.github.io/workflow-test/',
-  baseUrl: '/',
+  url: 'https://tulga1970.github.io/',
+  baseUrl: 'workflow-test/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
