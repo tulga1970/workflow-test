@@ -1,8 +1,10 @@
-name: learn-github-actions
+name: Build website
 on:
   push:
     branches:
       - main
+    paths:
+      - 'website/**'
 jobs:
   check-bats-version:
     runs-on: ubuntu-latest
@@ -11,6 +13,9 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: '14'
+      - name: Go to website directory
+        run: cd website
+        shell: bash
       - name: Install dependencies
         run: yarn install --frozen-lockfile
       - name: Build website
