@@ -54,7 +54,7 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-yarn-
       - name: Build
-        - run: |
+        run: |
           yarn install --frozen-lockfile
           yarn build
         working-directory: ./website
