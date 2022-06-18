@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Tutorial Intro
 
-Let's discover **Docusaurus in less than 5 minutes**.
+Let's discover **Docusaurus in less than 5 minutes asdlkfhjasdlkfhaskjdfh**.
 Actually it is more like 10hours so brace yourself :D. Just kidding it is less than 5min
 
 ## Getting Started
