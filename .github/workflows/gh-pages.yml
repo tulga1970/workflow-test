@@ -55,7 +55,7 @@ jobs:
             ${{ runner.os }}-yarn-
       - name: Build
         run: |
-          yarn install --frozen-lockfile
+          yarn install
           yarn build
         working-directory: ./website
 
